@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="w3.css">
+    <title>Arctic Monkeys</title>
+</head>
+<style>
+    body, h1, h2, h3, h4, h5, h6  {
+      font-family: Roboto, sans-serif;
+    }
+    </style>
+<body>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button w3-padding-large" style="width: 200px; height: 100px; font-size: 18px; font-weight: bold;" onclick="openNav('home')">Home</button>
+        <button class="w3-bar-item w3-button w3-padding-large" style="width: 200px; height: 100px; font-size: 18px; font-weight: bold;" onclick="openNav('band')">Band</button>
+        <button class="w3-bar-item w3-button w3-padding-large" style="width: 200px; height: 100px; font-size: 18px; font-weight: bold;" onclick="openNav('tour')">Tour</button>
+        <button class="w3-bar-item w3-button w3-padding-large" style="width: 200px; height: 100px; font-size: 18px; font-weight: bold;" onclick="openNav('about')">About</button>
+        
+    </div>
+    <div id="home" class="w3-container w3-black navMenu" style="display:none">
+        <div class="w3-display-container w3-center w3-animate-bottom">
+            <img src="images/am_bg_1.png" style="width: 100%; height: 100%; ">
+            <div class="w3-padding w3-display-middle w3-panel w3-white" style="width: 800px;">
+                <div class="w3-row">
+                    <div class="w3-col w3-container" style="width:50%">
+                        <center>
+                            <div class="spacer" style="height: 80px;"></div>
+                            <h1 style="font-size: 50px; font-weight: bolder;">ARCTIC</h1>
+                            <h1 style="font-size: 50px; font-weight: bolder;">MONKEYS</h1>
+                            <button class="w3-button w3-xxlarge w3-border w3-border-green  w3-hover-green">Buy/Listen</button>
+                        </center>
+                    </div>
+                    <div class="w3-col w3-container" style="width:50%">
+                        <img src="images/am_album_2.png" style="width: 350px; height: 350px;">
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div id="band" class="w3-container w3-animate-bottom navMenu" style="display:none">
+        <center>
+            <h2 class="w3-wide w3-center">THE BAND</h2>
+            <p class="w3-opacity w3-center"><i>Let's rock n roll!</i></p><br>
+            <p style="width: 700px; text-align: justify;">Arctic Monkeys are an English rock band formed in Sheffield in 2002. The group consists of lead singer Alex Turner, drummer Matt Helders, guitarist Jamie Cook and bassist Nick O'Malley. Former bassist Andy Nicholson left the band in 2006 shortly after their debut album was released. Arctic Monkeys were heralded as one of the first bands to come to public attention via the Internet, with commentators suggesting they represented the possibility of a change in the way in which new bands are promoted and marketed.[2] Their debut album, Whatever People Say I Am, That's What I'm Not (2006), received widespread critical acclaim upon release and topped the UK Albums Chart, becoming the fastest-selling debut album in British chart history at the time. It won Best British Album at the 2007 Brit Awards and has since been hailed as one of the greatest debut albums.[3] The band's second album, Favourite Worst Nightmare (2007), was also acclaimed by critics and won Best British Album at the 2008 Brit Awards. They went on to release Humbug (2009) and Suck It and See (2011), both of which were well-received critically, albeit not to the extent of their first two albums.</p>
+        </center>
+    </div>
+    <div id="tour" class="w3-container w3-animate-bottom navMenu" style="display:none">
+        <center>
+            <h2 class="w3-wide w3-center">TOUR DATES</h2>
+            <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+            <div class="month" style="max-width: 800px;">
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding">February <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">March <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">April <span class="w3-badge w3-right w3-margin-right">3</span></li>
+                </ul>
+            </div>
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom" style="max-width: 300px;">
+                  <img src="images/jakarta.png" alt="Jakarta" style="width: 285px; height: auto;" class="w3-hover-opacity">
+                  <div class="w3-container w3-black">
+                    <p><b>Jakarta</b></p>
+                    <p class="w3-opacity">Fri 25 Apr 2024</p>
+                    <p>The concert in Indonesia is scheduled to be held at Beach City International Stadium Ancol, Jakarta.</p>
+                    <button class="w3-button w3-white w3-margin-bottom">Buy Tickets</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom" style="max-width: 300px;">
+                    <img src="images/new_york.png" alt="New York" style="width: 285px; height: auto;" class="w3-hover-opacity">
+                    <div class="w3-container w3-black">
+                      <p><b>New York</b></p>
+                      <p class="w3-opacity">Mon 17 Sep 20244</p>
+                      <p>The concert in the United States is scheduled to be held at Madison Square Garden in New York City.</p>
+                      <button class="w3-button w3-white w3-margin-bottom">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="w3-third w3-margin-bottom" style="max-width: 300px;">
+                    <img src="images/singapore.png" alt="Singapore" style="width: 285px; height: auto;" class="w3-hover-opacity">
+                    <div class="w3-container w3-black">
+                      <p><b>Singapore</b></p>
+                      <p class="w3-opacity">Thu 29 Mar 2024</p>
+                      <p>The concert in Singapore is scheduled to be held at Marina Bay Sands Grand Theatre.</p>
+                      <button class="w3-button w3-white w3-margin-bottom">Buy Tickets</button>
+                    </div>
+                </div>
+              </div>
+        </center>
+    </div>
+    <div id="about" class="w3-container w3-animate-bottom navMenu" style="display:none">
+        <center>
+        <h2 class="w3-wide w3-center">ABOUT ME</h2>
+        <p class="w3-opacity w3-center"><i>Hello World!</i></p><br>
+        <div class="w3-card-4" style="max-width: 300px;">
+            <img src="images/me.png" alt="Favian" style="width: 300px;" height="400px">
+            <div class="w3-container w3-center">
+                <p>Muhammad Favian Jiwani</p>
+                <p>10123115</p>
+            </div>
+        </div>
+        </center>
+    </div>
+    <script>
+        function openNav(navMenu) {
+            var i;
+            var x = document.getElementsByClassName("navMenu");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+            }
+            document.getElementById(navMenu).style.display = "block"; 
+        }
+    </script>   
+</body>
+</html>
